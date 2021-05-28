@@ -6,8 +6,6 @@ body {
     width: 100%;
 }
 
-.container-fluid {}
-
 
 /*head*/
 
@@ -229,7 +227,7 @@ body {
 }
 
 .openChatBtn {
-    background-color: rgb(123, 28, 179);
+    background-color: #4287f5;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -240,7 +238,8 @@ body {
     position: fixed;
     bottom: 23px;
     right: 28px;
-    width: 280px;
+    width: 80px;
+    border-radius: 10px;
 }
 
 .openChat {
