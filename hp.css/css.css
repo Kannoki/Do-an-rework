@@ -167,10 +167,6 @@ footer {
     color: #fff;
 }
 
-a {
-    text-decoration: none;
-}
-
 .f-box {
     background: white;
     margin: 20px;
@@ -247,7 +243,6 @@ body {
     position: fixed;
     bottom: 0;
     right: 15px;
-    border: 3px solid #ff08086b;
     z-index: 9;
 }
 
@@ -294,4 +289,16 @@ form .close {
 form .btn:hover,
 .openChatBtn:hover {
     opacity: 1;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card_title {
+    color: black !important;
+}
+
+.a_card {
+    color: black;
 }
