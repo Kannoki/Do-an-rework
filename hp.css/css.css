@@ -335,6 +335,7 @@
         min-height: 50px;
         background-color: #f6f6f6;
         margin-top: 40px;
+        padding: 20px;
     }
     
     .cmt-item {
@@ -342,6 +343,14 @@
         color: black;
         margin: 5px;
         border-radius: 5px;
-        border: 3px solid #747b86;
+        border: 3px solid #adadad;
         padding: 10px;
+    }
+    
+    .tag {
+        background-color: #4287f5;
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        color: white;
     }
