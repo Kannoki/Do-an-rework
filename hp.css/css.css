@@ -246,13 +246,13 @@ body {
     z-index: 9;
 }
 
-form {
+.chatform {
     max-width: 300px;
     padding: 10px;
     background-color: white;
 }
 
-form textarea {
+.chatform textarea {
     width: 100%;
     font-size: 18px;
     padding: 15px;
@@ -265,12 +265,12 @@ form textarea {
     min-height: 200px;
 }
 
-form textarea:focus {
+.chatform textarea:focus {
     background-color: rgb(219, 255, 252);
     outline: none;
 }
 
-form .btn {
+.chatform .btn {
     background-color: rgb(34, 197, 107);
     color: white;
     padding: 16px 20px;
@@ -282,11 +282,11 @@ form .btn {
     opacity: 0.8;
 }
 
-form .close {
+.chatform .close {
     background-color: red;
 }
 
-form .btn:hover,
+.chatform .btn:hover,
 .openChatBtn:hover {
     opacity: 1;
 }
