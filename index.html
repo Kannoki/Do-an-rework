@@ -185,14 +185,23 @@
 
 <button class="openChatBtn" onclick="openForm()">Chat</button>
 <div class="openChat">
+    <form class="chatform" style="min-height:70%">
+        <h2>Chat</h2>
+        <hr>
+        <div class="chatitem">
+            <a style="text-decoration: none; color: blue">
+                Name
+            </a>
+            <hr>
+            <p>
+                Hi
+            </p>
+        </div>
+    </form>
     <form class="chatform">
-        <h1>Chat</h1>
-        <label for="msg"><b>Message</b></label>
         <textarea placeholder="Type message.." name="msg" required></textarea>
         <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn close" onclick="closeForm()">
-    Close
-</button>
+        <button type="button" class="btn close" onclick="closeForm()">Close</button>
     </form>
 </div>
 

@@ -223,17 +223,27 @@
     }
     
     .openChat {
-        display: none;
         position: fixed;
-        bottom: 0;
-        right: 15px;
+        height: 100%;
+        width: 20%;
+        top: 0;
+        right: 0;
+        background: var(--menu);
         z-index: 9;
     }
     
     .chatform {
-        max-width: 300px;
+        max-width: 100%;
+        height: 30%;
         padding: 10px;
-        background-color: white;
+        background-color: #f6f6f6;
+    }
+    
+    .chatform {
+        max-width: 100%;
+        height: 30%;
+        padding: 10px;
+        background-color: #f6f6f6;
     }
     
     .chatform textarea {
@@ -246,7 +256,7 @@
         background: #d5e7ff;
         color: rgb(0, 0, 0);
         resize: none;
-        min-height: 200px;
+        min-height: 40px;
     }
     
     .chatform textarea:focus {
@@ -255,13 +265,13 @@
     }
     
     .chatform .btn {
-        background-color: rgb(34, 197, 107);
+        background-color: rgb(34, 107, 197);
         color: white;
         padding: 16px 20px;
         font-weight: bold;
         border: none;
         cursor: pointer;
-        width: 100%;
+        width: 49%;
         margin-bottom: 10px;
         opacity: 0.8;
     }
@@ -353,4 +363,12 @@
         border: none;
         border-radius: 10px;
         color: white;
+    }
+    
+    .chatitem {
+        border-radius: 5px;
+        background: #c6c6c6;
+        padding: 5px;
+        padding-left: 10px;
+        margin: 10px;
     }
