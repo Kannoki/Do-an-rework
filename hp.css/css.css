@@ -170,13 +170,13 @@
     .headbox {
         background: hsla(231, 85%, 24%, 1);
 
-background: linear-gradient(135deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-
-background: -moz-linear-gradient(135deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-
-background: -webkit-linear-gradient(135deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#091970", endColorstr="#0968E5", GradientType=1 );
+        background: linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
+        
+        background: -moz-linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
+        
+        background: -webkit-linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#091970", endColorstr="#0968E5", GradientType=1 );
         color: white;
         width: 100%;
         padding: 30px;
@@ -383,3 +383,6 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#091970", en
         padding: 5px;
         cursor: pointer;
     }
+    .checked {
+        color: orange;
+      }

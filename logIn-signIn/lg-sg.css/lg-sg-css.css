@@ -169,14 +169,14 @@ form input {
     width: 90%;
     padding: 0 20px;
     border: none;
-    background-color: #b0fffa;
+    background-color: #eff1ef;
     height: 40px;
     margin: 20px;
 }
 
 .text_field {
     line-height: 50px;
-    background: #f4f5f8;
+    background: #eff1ef;
     border: none;
     width: 100%;
     border-radius: 3px;
