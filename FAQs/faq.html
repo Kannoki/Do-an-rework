@@ -21,7 +21,7 @@
         <img src="../hp.item/Logo.svg" width="40px" height="40px" alt="">
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-black">Trang Chủ</a></li>
+            <li><a href="../index.html" class="nav-link px-2 text-black">Trang Chủ</a></li>
             <li>
                 <div class="dropdown">
                     <a href="../Apps/Apps-1.html" class="nav-link px-2 text-black">Ứng Dụng</a>
@@ -88,9 +88,9 @@
     </div>
 
 </header>
-<div class="headbox" style="padding: 20px; border-bottom-left-radius: 15px; border-bottom-right-radius: 40px;">
+<div class="headbox" style="padding: 20px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px;">
     <h2> FAQs </h2>
-    <hr>
+
 </div>
 <div class="container-fluid">
     <div class="row">
@@ -137,9 +137,103 @@
                 </p>
             </div>
         </div>
+        <div class="dropdown1" width="100%">
+            <button onclick="" class="dropbtn1">Slot</button>
+            <div id="myDropdown4" class="dropdown-content1">
+                <p> Đây là câu chuyện tương lai, khó mà nói trước được. Nhưng hi vọng càng xa càng tốt.</p>
+                <p> Trước hết là điểm DACS cao đã, ahihi 🐧
+                </p>
+            </div>
+        </div>
+        <div class="dropdown1" width="100%">
+            <button onclick="" class="dropbtn1">Slot</button>
+            <div id="myDropdown4" class="dropdown-content1">
+                <p> Đây là câu chuyện tương lai, khó mà nói trước được. Nhưng hi vọng càng xa càng tốt.</p>
+                <p> Trước hết là điểm DACS cao đã, ahihi 🐧
+                </p>
+            </div>
+        </div>
+        <div class="dropdown1" width="100%">
+            <button onclick="" class="dropbtn1">Slot</button>
+            <div id="myDropdown4" class="dropdown-content1">
+                <p> Đây là câu chuyện tương lai, khó mà nói trước được. Nhưng hi vọng càng xa càng tốt.</p>
+                <p> Trước hết là điểm DACS cao đã, ahihi 🐧
+                </p>
+            </div>
+        </div>
+        <div class="dropdown1" width="100%">
+            <button onclick="" class="dropbtn1">Slot</button>
+            <div id="myDropdown4" class="dropdown-content1">
+                <p> Đây là câu chuyện tương lai, khó mà nói trước được. Nhưng hi vọng càng xa càng tốt.</p>
+                <p> Trước hết là điểm DACS cao đã, ahihi 🐧
+                </p>
+            </div>
+        </div>
+        <div class="dropdown1" width="100%">
+            <button onclick="" class="dropbtn1">Slot</button>
+            <div id="myDropdown4" class="dropdown-content1">
+                <p> Đây là câu chuyện tương lai, khó mà nói trước được. Nhưng hi vọng càng xa càng tốt.</p>
+                <p> Trước hết là điểm DACS cao đã, ahihi 🐧
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
+<button class="openChatBtn" onclick="openForm()"><img src="/hp.item/messenger.svg" alt=""
+    style="height: 3em; width: 3em;"></button>
+<div class="openChat" style="display: none;">
+<form class="chatform" style="min-height:70%">
+    <h2>Tin Nhắn</h2>
+    <hr>
+    <div class="row">
+        <div class="col-3">
+            <img src="../hp.item/suck_icon.png" alt="" class="chatImg">
+        </div>
+        <div class="col-8 chatitem">
+
+            <a style="text-decoration: none; color: blue">
+                Assmin
+            </a>
+            <p>
+                Hi
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-3">
+            <img src="../hp.item/suck_icon.png" alt="" class="chatImg">
+        </div>
+        <div class="col-8 chatitem">
+
+            <a style="text-decoration: none; color: blue">
+                Admin 2
+            </a>
+            <p>
+                Hey yo whatup!
+            </p>
+        </div>
+    </div>
+</form>
+<form class="chatform">
+    <textarea placeholder="Nhập tin nhắn ...." name="msg" required></textarea>
+    <button type="submit" class="btn">Gửi</button>
+    <button type="button" class="btn close" onclick="closeForm()">Đóng</button>
+</form>
+</div>
+<script>
+document.querySelector(".openChatBtn").addEventListener("click", openForm);
+document.querySelector(".close").addEventListener("click", closeForm);
+
+function openForm() {
+    document.querySelector(".openChat").style.display = "block";
+}
+
+function closeForm() {
+    document.querySelector(".openChat").style.display = "none";
+}
+</script>
 
 
 <footer>
