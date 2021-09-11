@@ -4576,7 +4576,7 @@ fieldset:disabled .btn {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
-    height: 400px;
+    height: 28rem;
 }
 
 .card>hr {
@@ -4618,6 +4618,10 @@ fieldset:disabled .btn {
 .card-subtitle {
     margin-top: -.25rem;
     margin-bottom: 0
+}
+
+.card-text {
+    size: 2em;
 }
 
 .card-text:last-child {

@@ -6,356 +6,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Share App - Trang chủ</title>
+    <link rel="stylesheet" href="chatcss.css">
+
     <link rel="stylesheet" href="./hp.css/css.css">
     <link rel="stylesheet" href="hp.css/bootstrap.min.css">
-
     <link rel="icon" href="./hp.item/Logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <script src="
+    https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <script>
+        $('#exampleSlider').multislider({
+            interval: 4000,
+            slideAll: true,
+            duration: 1500
+        });
+    </script>
 
-</body>
-<header class="p-3 bg_head text-white">
-    <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-head">
-
-        <img src="./hp.item/Logo.svg" width="40px" height="40px" alt="">
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-secondary">Trang Chủ</a></li>
-            <li>
-                <div class="dropdown">
-                    <a href="Apps/Apps-1.html" class="nav-link px-2 text-black">Ứng Dụng</a>
-                    <div class="dropdown-content">
-                        <ul>
-                            <li>
-                                <a href="./Apps/Code/code-app.html">Lập Trình</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="./Apps/Design/ds.html">Thiết Kế - Đồ Họa</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                                <a href="./Apps/Multi/1.html">Văn Phòng - Đa phương Tiện</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="./Apps/W/w1.html">Tiện Ích -Đa Nhiệm.</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="dropdown">
-                    <a href="/Games/Games.html" class="nav-link px-2 text-black">Game</a>
-                    <div class="dropdown-content">
-                        <ul>
-                            <li>
-                                <a href="/Games/RPG/1.html">Bắn Súng</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="/Games/RTS/2.html">Chiến Thuật</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="/Games/Survival/s.html">Sinh Tồn</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="/Games/Another/a.html">Khác</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </li>
-            <li><a href="FAQs/faq.html" class="nav-link px-2 text-black">FAQs</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control form-control-dark" placeholder="Search...">
-        </form>
-
-        <div class="text-end">
-            <a href="./logIn-signIn/logIn.html"> <button type="button" class="btn btn-outline-light me-2">Đăng
-                    nhập</button></a>
-            <a href="./logIn-signIn/signIn.html"><button type="button" class="btn btn-warning">Đăng ký</button></a>
+    <div class="hero-image col-sm-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./hp.item/banner/mainbanner.jpg');">
+        <div class="hero-text">
+            <h1> Share App</h1>
+            <p>
+                App you need - App we give.
+            </p>
         </div>
     </div>
+    <div class=" container-fluid">
+        <div class="row col-lg-9 col-md-8 col-sm-12" style="margin-top: 1em;">
+            <div class="col f-box">
+                <div class="title">
+                    <h2>Ứng dụng nổi bật</h2>
+                    <hr>
+                </div>
+                <div class="row">
 
-</header>
-<div class="hero-image"
-    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./hp.item/banner/mainbanner.jpg');">
-    <div class="hero-text">
-        <h1> Share App</h1>
-        <p>
-            App you need - App we give.
-        </p>
-    </div>
-</div>
-<div class="container container-fluid">
-    <div class="row">
-        <div class="col f-box">
-            <div class="title">
-                <h2>Ứng dụng nổi bật</h2>
-                <hr>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Code/Eclipse/e.html"><img src="./Apps/Code/Eclipse/eclipse-seeklogo.com.svg"
-                                alt="" class="bd-placeholder-img card-img-top" width="100%" height="200"></a>
-                        <div class="card-body">
-                            <a class="a_card" href="./Apps/Code/Eclipse/e.html"></a>
-                            <h5 class="card-title">Eclipse</h5>
-                            <p class="card-text">Ứng dụng lập trình java và maven.</p>
-                            <p class="card-text">Ứng dụng lập trình.</p>
-                            <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star "></span>
-                            <span class="fa fa-star"></span>
-                            </a>
+                    <div id="exampleSlider">
+                        <div class="MS-content">
+
+                            <div class="item">
+                                <div class="col-lg-4 col-md-6 cl-mg">
+                                    <div class="card">
+                                        <a href="./Apps/Code/Eclipse/e.html"><img src="./Apps/Code/Eclipse/eclipse-seeklogo.com.svg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="200"></a>
+                                        <hr>
+                                        <div class="card-body">
+                                            <a class="a_card" href="./Apps/Code/Eclipse/e.html"></a>
+                                            <h5 class="card-title">Eclipse</h5>
+                                            <p class="card-text">Ứng dụng lập trình java và maven.</p>
+                                            <hr>
+                                            <p style="color: blue; margin-bottom: -2px;">Rating:</p>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-lg-4 col-md-6 cl-mg">
+                                    <div class="card">
+                                        <a href="./Apps/Code/Eclipse/e.html"><img src="./Apps/Code/Eclipse/eclipse-seeklogo.com.svg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="200"></a>
+                                        <div class="card-body">
+                                            <hr>
+                                            <a class="a_card" href="./Apps/Code/Eclipse/e.html"></a>
+                                            <h5 class="card-title">Eclipse</h5>
+                                            <p class="card-text">Ứng dụng lập trình java và maven2.</p>
+
+                                            <p style="color: blue; margin-bottom: -2px;">Rating:</p>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+
+                            </div>
+                            <div class="item">
+
+                            </div>
+                            <div class="item">
+
+                            </div>
+                        </div>
+                        <div class="MS-controls">
+                            <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                            <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Code/dv-c/dvc.html"><img src="./Apps/Code/dv-c/c.svg" alt=""
-                                class="bd-placeholder-img card-img-top" width="100%" height="200"></a>
-                        <div class="card-body">
-                            <a class="a_card" href="./Apps/Code/dv-c/dvc.html">
-                                <h5 class="card-title">Dev-C</h5>
-                                <p class="card-text">Ứng dụng lập trình C,C++,C#....</p>
-                                <p class="card-text">Ứng dụng lập trình.</p>
-                                <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star \"></span>
-                                <span class="fa fa-star"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Code/IJ/ij.html"><img src="./Apps/Code/IJ/intellij.svg" alt=""
-                                class="bd-placeholder-img card-img-top" width="100%" height="200"></a>
-                        <div class="card-body">
-                            <a class="a_card" href="./Apps/Code/IJ/ij.html">
-                                <h5 class="card-title">Interlji</h5>
-                                <p class="card-text">Ứng dụng lập trình java và maven.</p>
-                                <p class="card-text">Ứng lập trình.</p>
-                                <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Code/VS/vs.html"><img src="./Apps/Code/VS/vs.svg" alt=""
-                                class="bd-placeholder-img card-img-top" style="height:200px"></a>
-                        <div class="card-body">
-                            <a class="a_card" href="./Apps/Code/VS/vs.html">
-                                <h5 class="card-title">Visual Code </h5>
-                                <p class="card-text">Ứng dụng lập trình đa dụng.</p>
-                                <p class="card-text">Ứng dụng lập trình.</p>
-                                <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Design/pr/pr.html">
-                            <img src="./Apps/Design/pr/pr.svg" alt="" class="bd-placeholder-img card-img-top"
-                                width="100%" height="200">
-                        </a>
-                        <div class="card-body">
-                            <a class="a_card" href="./Apps/Design/pr/pr.html">
-                                <h5 class="card-title">Adobe Premier 2021 - pre active</h5>
-                                <p class="card-text">Ứng dụng chỉnh sửa video chuyên nghiệp</p>
-                                <p class="card-text">Ứng dụng thiết kế chuyên nghiệp</p>
-                                <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 cl-mg">
-                    <div class="card">
-                        <a href="./Apps/Design/ps/ps.html">
-                            <img src="./Apps/Design/ps/ps.svg" alt="" class="bd-placeholder-img card-img-top"
-                                width="100%" height="200">
-                        </a>
-                        <div class="card-body">
-                            <a href="./Apps/Design/ps/ps.html" class="a_card">
-                                <h5 class="card-title">Adobe Photoshop 2021 - pre active</h5>
-                                <p class="card-text">Ứng dụng chỉnh sửa ảnh chuyên nghiệp</p>
-                                <p class="card-text">Ứng dụng thiết kế chuyên nghiệp</p>
-                                <p style="color: blue; margin-bottom: -2px;">Rating:</p>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </a>
-                        </div>
-                    </div>
+
+                    <script src="js/jquery-2.2.4.min.js"></script>
+
+                    <script src="js/multislider.min.js"></script>
                 </div>
             </div>
+
+
         </div>
-
 
     </div>
 
-</div>
 
 
-<button class="openChatBtn" onclick="openForm()"><img src="/hp.item/messenger.svg" alt=""
-        style="height: 3em; width: 3em;"></button>
-<div class="openChat" style="display: none;">
-    <form class="chatform" style="min-height:70%">
-        <h2>Tin Nhắn</h2>
-        <hr>
-        <div class="row">
-            <div class="col-3">
-                <img src="hp.item/suck_icon.png" alt="" class="chatImg">
-            </div>
-            <div class="col-8 chatitem">
 
-                <a style="text-decoration: none; color: blue">
-                    Assmin
-                </a>
-                <p>
-                    Hi
-                </p>
-            </div>
+
+
+    <div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+        <i class="material-icons">CB
+            </i>
+    </div>
+
+    <div class="chat-box">
+        <div class="chat-box-header">
+            ChatBot
+            <span class="chat-box-toggle"><i class="material-icons">close</i></span>
         </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay">
+            </div>
+            <div class="chat-logs">
+
+            </div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" placeholder="Send a message..." />
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="chatjs.js"></script>
+
+
+
+    <footer>
         <br>
-        <div class="row">
-            <div class="col-3">
-                <img src="hp.item/suck_icon.png" alt="" class="chatImg">
-            </div>
-            <div class="col-8 chatitem">
-
-                <a style="text-decoration: none; color: blue">
-                    Admin 2
-                </a>
-                <p>
-                    Hey yo whatup!
-                </p>
-            </div>
-        </div>
-    </form>
-    <form class="chatform">
-        <textarea placeholder="Nhập tin nhắn ...." name="msg" required></textarea>
-        <button type="submit" class="btn">Gửi</button>
-        <button type="button" class="btn close" onclick="closeForm()">Đóng</button>
-    </form>
-</div>
-<script>
-    document.querySelector(".openChatBtn").addEventListener("click", openForm);
-    document.querySelector(".close").addEventListener("click", closeForm);
-
-    function openForm() {
-        document.querySelector(".openChat").style.display = "block";
-    }
-
-    function closeForm() {
-        document.querySelector(".openChat").style.display = "none";
-    }
-</script>
-
-
-
-
-
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="info-footer centered" style="max-width:80%">
-                    <div class="info__logo lefted">
-                        <h1 class="lefted">
-                            SHARE APP
-                        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-footer centered" style="max-width:80%">
+                        <div class="info__logo lefted">
+                            <h1 class="lefted">
+                                SHARE APP
+                            </h1>
+                        </div>
+                        <p class="info--text lefted">
+                            Trang web chia sẻ ứng dụng, trò chơi cho mọi người.
+                        </p>
                     </div>
-                    <p class="info--text lefted">
-                        Trang web chia sẻ ứng dụng, trò chơi cho mọi người.
-                    </p>
-                </div>
-                <div class=" info-footer lefted">
-                    <h4 class="footer-widget-title text--white le">Liên hệ</h4>
-                    <ul class="info-contact none-list ">
-                        <li title="Phone Number ">
-                            <span class="info lefted">0918607205</span>
-                        </li>
-                        <li title="Email ">
-                            <span class="info lefted">tthieu.20it2@vku.udn.vn</span>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-6 ">
-                <div class="info-footer ">
-                    <div class="row ">
-
-                    </div>
-                </div>
-                <div class="newsletter ">
-                    <h4 class="footer-widget-title text--white ">Mạng xã hội</h4>
-                    <p>Theo dõi các mạng xã hội để có được những thông tin mới nhất</p>
-                    <div class="social social--color--filled ">
-                        <ul class="none-list ">
-                            <li>
-                                <a href="# ">
-                                    <span class="fab fa-facebook-f "></span>
-                                </a>
+                    <div class=" info-footer lefted">
+                        <h4 class="footer-widget-title text--white le">Liên hệ</h4>
+                        <ul class="info-contact none-list ">
+                            <li title="Phone Number ">
+                                <span class="info lefted">0918607205</span>
                             </li>
-                            <li>
-                                <a href="# ">
-                                    <span class="fab fa-twitter "></span>
-                                </a>
+                            <li title="Email ">
+                                <span class="info lefted">tthieu.20it2@vku.udn.vn</span>
                             </li>
 
                         </ul>
                     </div>
                 </div>
+
+                <div class="col-md-6 ">
+                    <div class="info-footer ">
+                        <div class="row ">
+
+                        </div>
+                    </div>
+                    <div class="newsletter ">
+                        <h4 class="footer-widget-title text--white ">Mạng xã hội</h4>
+                        <p>Theo dõi các mạng xã hội để có được những thông tin mới nhất</p>
+                        <div class="social social--color--filled ">
+                            <ul class="none-list ">
+                                <li>
+                                    <a href="# ">
+                                        <span class="fab fa-facebook-f "></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# ">
+                                        <span class="fab fa-twitter "></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="mini-footer">
-        <p class="center">
-            Copyrights by
-            <a class="deco-none" href="/">Kannoki</a>
-        </p>
-    </div>
-</footer>
+        <div class="mini-footer">
+            <p class="center">
+                Copyrights by
+                <a class="deco-none" href="/">Kannoki</a>
+            </p>
+        </div>
+    </footer>
 
 
 

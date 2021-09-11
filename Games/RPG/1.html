@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share App - Trang chủ</title>
+    <link rel="stylesheet" href="../../hp.css/css.css">
+    <link rel="stylesheet" href="../../hp.css/bootstrap.min.css">
+    <link rel="icon" href="../../hp.item/Logo.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+
+</body>
+<header class="p-3 bg_head text-white">
+    <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-head">
+
+        <a href="../../index.html"><img src="../../hp.item/Logo.svg" width="40px" height="40px" alt=""></a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="../../index.html" class="nav-link px-2 text-black">Trang Chủ</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="../../Apps/Apps-1.html" class="nav-link px-2 text-black">Ứng Dụng</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>
+                                <a href="./Apps/Code/code-app.html">Lập Trình</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="./Apps/Design/ds.html">Thiết Kế - Đồ Họa</a>
+                            </li>
+                            <hr>
+
+                            <li>
+                                <a href="./Apps/Multi/1.html">Văn Phòng - Đa phương Tiện</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="./Apps/W/w1.html">Tiện Ích -Đa Nhiệm.</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="#" class="nav-link px-2 text-secondary">Game</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>
+                                <a href="../RPG/1.html">Bắn Súng</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../RTS/2.html">Chiến Thuật</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#">Sinh Tồn</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../Another/a.html">Khác</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </li>
+            <li><a href="#" class="nav-link px-2 text-black">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-black">About</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search...">
+        </form>
+
+        <div class="text-end">
+            <a href="./logIn-signIn/logIn.html"> <button type="button" class="btn btn-outline-light me-2">Đăng
+                    nhập</button></a>
+            <a href="./logIn-signIn/signIn.html"><button type="button" class="btn btn-warning">Đăng ký</button></a>
+        </div>
+    </div>
+
+</header>
+<div class="title headbox">
+    <h2>Games sinh tồn:</h2>
+    <hr>
+</div>
+<div class="container container-fluid">
+    <div class="row">
+
+        <div class="col-lg-4 col-md-6 cl-mg">
+            <div class="card">
+                <img src="Sub/sub.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">Subnautica</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="openChatBtn" onclick="openForm()"><img src="/hp.item/messenger.svg" alt=""
+    style="height: 3em; width: 3em;"></button>
+<div class="openChat" style="display: none;">
+<form class="chatform" style="min-height:70%">
+    <h2>Tin Nhắn</h2>
+    <hr>
+    <div class="row">
+        <div class="col-3">
+            <img src="hp.item/suck_icon.png" alt="" class="chatImg">
+        </div>
+        <div class="col-8 chatitem">
+
+            <a style="text-decoration: none; color: blue">
+                Assmin
+            </a>
+            <p>
+                Hi
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-3">
+            <img src="hp.item/suck_icon.png" alt="" class="chatImg">
+        </div>
+        <div class="col-8 chatitem">
+
+            <a style="text-decoration: none; color: blue">
+                Admin 2
+            </a>
+            <p>
+                Hey yo whatup!
+            </p>
+        </div>
+    </div>
+</form>
+<form class="chatform">
+    <textarea placeholder="Nhập tin nhắn ...." name="msg" required></textarea>
+    <button type="submit" class="btn">Gửi</button>
+    <button type="button" class="btn close" onclick="closeForm()">Đóng</button>
+</form>
+</div>
+<script>
+document.querySelector(".openChatBtn").addEventListener("click", openForm);
+document.querySelector(".close").addEventListener("click", closeForm);
+
+function openForm() {
+    document.querySelector(".openChat").style.display = "block";
+}
+
+function closeForm() {
+    document.querySelector(".openChat").style.display = "none";
+}
+</script>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-footer centered" style="max-width:80%">
+                    <div class="info__logo lefted">
+                        <h1 class="lefted">
+                            SHARE APP
+                        </h1>
+                    </div>
+                    <p class="info--text lefted">
+                        Trang web chia sẻ ứng dụng, trò chơi cho mọi người.
+                    </p>
+                </div>
+                <div class=" info-footer lefted">
+                    <h4 class="footer-widget-title text--white le">Liên hệ</h4>
+                    <ul class="info-contact none-list ">
+                        <li title="Phone Number ">
+                            <span class="info lefted">0918607205</span>
+                        </li>
+                        <li title="Email ">
+                            <span class="info lefted">tthieu.20it2@vku.udn.vn</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="info-footer ">
+                    <div class="row ">
+
+                    </div>
+                </div>
+                <div class="newsletter ">
+                    <h4 class="footer-widget-title text--white ">Mạng xã hội</h4>
+                    <p>Theo dõi các mạng xã hội để có được những thông tin mới nhất</p>
+                    <div class="social social--color--filled ">
+                        <ul class="none-list ">
+                            <li>
+                                <a href="# ">
+                                    <span class="fab fa-facebook-f "></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="# ">
+                                    <span class="fab fa-twitter "></span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mini-footer">
+        <p class="center">
+            Copyrights by
+            <a class="deco-none" href="/">Kannoki</a>
+        </p>
+    </div>
+</footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,9 +1,13 @@
     body {
-        background-color: #f6f6f6;
+        background-color: #f6f6f6ce !important;
     }
     
     .container {
         width: 100%;
+    }
+    
+    .container-fluid {
+        background-color: #f6f6f6ce;
     }
     /*head*/
     
@@ -169,14 +173,10 @@
     
     .headbox {
         background: hsla(231, 85%, 24%, 1);
-
         background: linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-        
         background: -moz-linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-        
         background: -webkit-linear-gradient(315deg, hsla(231, 85%, 24%, 1) 0%, hsla(214, 92%, 47%, 1) 100%);
-        
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#091970", endColorstr="#0968E5", GradientType=1 );
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#091970", endColorstr="#0968E5", GradientType=1);
         color: white;
         width: 100%;
         padding: 30px;
@@ -210,87 +210,9 @@
         box-sizing: border-box;
     }
     
-    .openChatBtn {
-        background-color: #8cb7fc;
-        color: white;
-        padding: 5px;
-        border: none;
-        font-weight: 500;
-        font-size: 18px;
-        cursor: pointer;
-        opacity: 0.8;
-        position: fixed;
-        bottom: 23px;
-        right: 23px;
-        width: 80px;
-        border-radius: 10px;
-    }
-    
-    .openChat {
-        position: fixed;
-        height: 100%;
-        width: 20%;
-        top: 0;
-        right: 0;
-        background: var(--menu);
-        z-index: 9;
-    }
-    
-    .chatform {
-        max-width: 100%;
-        height: 35%;
-        padding: 10px;
-        background-color: #f6f6f6;
-    }
-    
-    .chatform {
-        max-width: 100%;
-        height: 30%;
-        padding: 10px;
-        background-color: #f6f6f6;
-    }
-    
-    .chatform textarea {
-        width: 100%;
-        font-size: 18px;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        border: none;
-        font-weight: 500;
-        background: #eff1f5;
-        color: rgb(0, 0, 0);
-        resize: none;
-        min-height: 40px;
-    }
-    
-    .chatform textarea:focus {
-        background-color: #eff1f5;
-        outline: none;
-    }
-    
-    .chatform .btn {
-        background-color: rgb(34, 107, 197);
-        color: white;
-        padding: 16px 20px;
-        font-weight: bold;
-        border: none;
-        cursor: pointer;
-        width: 49%;
-        margin-bottom: 10px;
-        opacity: 0.8;
-    }
-    
-    .chatform .close {
-        background-color: red;
-    }
-    
-    .chatform .btn:hover,
-    .openChatBtn:hover {
-        opacity: 1;
-    }
-    
-    a {
-        text-decoration: none !important;
+    .rating {
+        display: inline-block;
+        vertical-align: middle;
     }
     
     .card_title {
@@ -376,13 +298,109 @@
         padding-left: 10px;
         margin: 10px;
     }
-    .chatImg{
+    
+    .chatImg {
         height: 50px;
         width: 50px;
         border-radius: 50%;
         padding: 5px;
         cursor: pointer;
     }
+    
     .checked {
         color: orange;
-      }
+    }
+    
+    #exampleSlider {
+        position: relative;
+    }
+    
+    @media (max-width: 767px) {
+        #exampleSlider {
+            border-color: transparent;
+        }
+    }
+    
+    #exampleSlider .MS-content {
+        margin: 15px 5%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    @media (max-width: 767px) {
+        #exampleSlider .MS-content {
+            margin: 0;
+        }
+    }
+    
+    #exampleSlider .MS-content .item {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+    
+    @media (max-width: 1200px) {
+        #exampleSlider .MS-content .item {
+            width: 25%;
+        }
+    }
+    
+    @media (max-width: 992px) {
+        #exampleSlider .MS-content .item {
+            width: 33.3333%;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        #exampleSlider .MS-content .item {
+            width: 50%;
+        }
+    }
+    
+    #exampleSlider .MS-content .item p {
+        font-size: 30px;
+        text-align: center;
+        line-height: 1;
+        vertical-align: middle;
+        margin: 0;
+        padding: 10px 0;
+    }
+    
+    #exampleSlider .MS-controls button {
+        position: absolute;
+        border: none;
+        background: transparent;
+        font-size: 30px;
+        outline: 0;
+        top: 35px;
+    }
+    
+    @media (max-width: 767px) {
+        #exampleSlider .MS-controls button {
+            display: none;
+        }
+    }
+    
+    #exampleSlider .MS-controls button:hover {
+        cursor: pointer;
+    }
+    
+    #exampleSlider .MS-controls .MS-left {
+        left: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        #exampleSlider .MS-controls .MS-left {
+            left: -2px;
+        }
+    }
+    
+    #exampleSlider .MS-controls .MS-right {
+        right: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        #exampleSlider .MS-controls .MS-right {
+            right: -2px;
+        }
+    }
